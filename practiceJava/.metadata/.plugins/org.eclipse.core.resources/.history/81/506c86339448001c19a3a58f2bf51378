@@ -1,0 +1,21 @@
+package com.practice.interview;
+
+public class Employee {
+
+	private String name;
+
+	public Employee(String name) {
+		super();
+		this.name = name;
+	}
+	
+	public Employee(String name2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int hashCode() {
+		return 1;
+	}
+	
+}

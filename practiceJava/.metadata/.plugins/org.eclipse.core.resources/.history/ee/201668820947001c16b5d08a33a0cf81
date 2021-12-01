@@ -1,0 +1,19 @@
+package com.practice.interview;
+
+public class checkCharLauncher {
+
+	public static void main(String[] args) {
+		String lett = "adefg";
+		char [] let = lett.toCharArray();
+		int len = let.length;
+		char[] temp =new char[len];
+//		System.out.println(len);
+		for(int i=len-1;i>=0;i--) {
+			temp[i]=let[i];
+			System.out.println(temp[i]);
+			
+		}
+		System.out.println(temp[0]);
+		
+	}
+}

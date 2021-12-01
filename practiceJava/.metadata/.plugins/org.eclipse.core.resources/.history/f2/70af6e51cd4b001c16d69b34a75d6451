@@ -1,0 +1,26 @@
+package com.java.practice;
+
+import java.util.Scanner;
+
+public class ConsecutiveNumberMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		
+		int size = input.length();
+		int temp;
+		for(int i=0; i<size; i++) {
+			
+			String new_string = input.substring(0, i+1);
+			
+			int num = Integer.parseInt(new_string);
+			while(new_string.length()<size) {
+				
+			}
+		}
+
+	}
+
+}

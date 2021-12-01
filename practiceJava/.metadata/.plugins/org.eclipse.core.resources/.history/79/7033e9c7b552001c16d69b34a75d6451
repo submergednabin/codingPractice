@@ -1,0 +1,14 @@
+package revature.challenge.com;
+
+import java.util.Scanner;
+
+public class RockScissorsMain {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String input1 = sc.nextLine();
+	}
+
+}

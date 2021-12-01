@@ -1,0 +1,14 @@
+package com.practice.interview;
+
+import java.util.HashMap;
+
+public class program4 {
+
+	public static void main(String[] args) {
+		
+		HashMap<Employee, String> hm = new HashMap<Employee, String>();
+		hm.put(new Employee("a"), "emp1" );
+
+	}
+
+}

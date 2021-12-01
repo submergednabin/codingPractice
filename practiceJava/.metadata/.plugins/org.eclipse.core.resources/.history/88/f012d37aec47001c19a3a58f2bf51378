@@ -1,0 +1,36 @@
+package com.practice.interview;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SumArrayListLauncer {
+
+	public static void main(String[] args) {
+		
+		List<Integer> arr = new ArrayList<>();
+		
+		Scanner sc = new Scanner(System.in);
+		while (sc.hasNextInt()) {
+		    int i = sc.nextInt();
+		   arr.add(i);
+		   
+		}
+		int l = arr.size();
+		int sum = 0;
+		int temp;
+		for(int i =0; i<l; i++) {
+			temp = arr.get(i);
+			for(int j=0;j<l;j++) {
+				sum += arr.get(j);
+				System.out.println(sum);
+			}
+		}
+		
+		
+		
+	}
+	
+//	public static find(List<>)
+
+}

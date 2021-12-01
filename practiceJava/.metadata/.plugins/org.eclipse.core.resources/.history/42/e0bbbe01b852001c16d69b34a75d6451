@@ -1,0 +1,28 @@
+package revature.challenge.com;
+
+import java.util.Scanner;
+
+public class RockScissorsMain {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String input1 = sc.nextLine();
+		
+		String input2 = sc.nextLine();
+		
+		if(input1.equals("scissors") || input1.equals("paper") || input1.equals("rock")) {
+			
+			switch(input2) {
+			
+				case "rock":{
+					if(input1.equals("paper")) {
+						System.out.println(input1);
+					}
+				}
+			}
+		}
+	}
+
+}

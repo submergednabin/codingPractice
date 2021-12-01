@@ -1,0 +1,15 @@
+package com.practice.interview;
+
+public class checkCharLauncher {
+
+	public static void main(String[] args) {
+		String lett = "ABCDCBA";
+		char [] let = lett.toCharArray();
+		int len = let.length;
+		char[] temp =new char[len];
+		for(int i=len-1;i<=0;i--) {
+			
+		}
+		
+	}
+}

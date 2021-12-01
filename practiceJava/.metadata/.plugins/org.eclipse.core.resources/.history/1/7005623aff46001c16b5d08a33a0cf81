@@ -1,0 +1,26 @@
+package com.practice.interview;
+
+import java.util.Scanner;
+
+public class primeLauncher {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		boolean flag=false;
+		System.out.println("Enter the Number");
+		int n=sc.nextInt();
+		sc.nextLine();
+		int m=n/2;
+		for(int i=2;i<m/2;i++) {
+			if(n%2==0) {
+				
+			}
+		}
+		
+
+	}
+
+}

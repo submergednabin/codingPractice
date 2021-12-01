@@ -1,0 +1,11 @@
+package com.practice.interview;
+
+public class program4 {
+
+	public static void main(String[] args) {
+		
+		HashMap<Employee, String> hm = new HashMap<Employee, String>();
+
+	}
+
+}

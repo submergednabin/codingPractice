@@ -1,0 +1,16 @@
+package com.practice.interview;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SumArrayListLauncer {
+
+	public static void main(String[] args) {
+		
+		List<Integer> arr = new ArrayList<>();
+		
+	}
+	
+//	public static find(List<>)
+
+}

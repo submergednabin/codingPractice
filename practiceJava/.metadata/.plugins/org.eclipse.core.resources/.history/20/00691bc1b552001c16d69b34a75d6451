@@ -1,0 +1,9 @@
+package revature.challenge.com;
+
+public class RockScissorsMain {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
