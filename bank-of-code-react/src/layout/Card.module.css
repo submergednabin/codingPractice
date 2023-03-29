@@ -1,0 +1,14 @@
+.card {
+    /* margin-top: 5%; */
+    border-bottom: 1px solid grey;
+    color: white;
+    border-radius: 0;
+}
+
+
+.balance-card {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color: red !important;
+}
